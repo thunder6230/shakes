@@ -6,7 +6,7 @@ p{
     padding-top: 10em;
     max-width: 50em;
   }
-@media  screen and (max-width:425px){
+@media  screen and (max-width:650px){
       p{
           width: 20rem;
       }

@@ -24,7 +24,7 @@ img{
     max-width: 30rem;
 }
 
-@media  screen and (max-width:425px){
+@media  screen and (max-width:650px){
     h3{
         text-align: center;
     }
