@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakes & Fidget tippek</title>
+    <link rel="stylesheet" href="style/style-header.css">
+    <link rel="stylesheet" href="style/kasztok.css">
+</head>
+<body>
+  <header>
+    <h1>Shakes & Fidget</h1><br>    
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="kasztok.html">Kasztok</a></li>
+      <li><a href="tudnivalok.html">Tudnivalok</a></li>
+      <li><a href="erod.html">Erod</a></li>
+      <li><a href="kazamata.html">Kazamata</a></li>
+      <li><a href="guild.html">Guild</a></li>
+    </ul>
+  </header>
+  <div class="container-1">
+    <div class="div-p">  
+      <p>
+        Minden osztálynak vannak erősségei és gyengeségei.<br><br>
+        A <strong>HARCOS</strong>ok erős páncéllal és védelemmel rendelkeznek. Egy fegyvert használnak, rendszerint valamilyen kardot vagy fejszét. A pajzsukkal képesek blokkolni a támadást (max. 25%). A páncéljuk csökkentett sebzése maximum 50% lehet.<br><br>
+        A <strong>MÁGUS</strong> kaszt a legjobb választás, ha a legnagyobb sebzést akarod okozni az ellenfeleidnek. A varázsbotjuk segítségével nagyot tudnak sebezni, viszont kevés az életerejük. A támadásuk elől azonban nem lehet kitérni és nem lehet kivédeni azokat. A páncéljuk csökkentett sebzése maximum 10% lehet.<br><br>
+        A <strong>FELDERÍTŐK</strong> a játék vadászai. Íjakat használnak. Jó reflexeikkel, 50% eséllyel kitérnek az ellenfél támadásai elől. A páncéljuk csökkentett sebzése maximum 25% lehet.<br><br>
+        Az <strong>ORVGYILKOS</strong>ok nagyon alattomosak: egyszerre két fegyvert használnak, így kétszer támadhatnak a harc során. Ráadásul 50% eséllyel kitérnek az ellenfél támadásai elől. A páncéljuk csökkentett sebzése maximum 25% lehet. A tűzgömböket képes visszaverni.<br><br>
+        A <strong>HARCI MÁGUS</strong> egy olyan erőtől duzzadó mágus, aki harcos fegyverekkel (kardokkal, fejszékkel) harcol. A küzdelem előtt pedig tűzgömböt dob az ellenfelére. A páncéljuk csökkentett sebzése maximum 10%, a pajzsuké maximum 40% lehet.<br><br>
+        A <strong>HÁBORGÓK</strong> harcos felszerelést viselnek, de nincs pajzsuk. Düh képességük az azonnali támadás (50% eséllyel). A páncéljuk csökkentett sebzése maximum 25% lehet. Érzékenyek a mágusokra, ezért +100% sebzést szenvednek el tőlük.<br><br>
+        A <strong>DÉMONVADÁSZ</strong>ok harcos felszerelés viselnek, de felderítő fegyvereket használnak. Nem tudnak kitérni vagy védekezni a támadások ellen. A páncéljuk csökkentett sebzése maximum 50% lehet. Kazamata specifikus osztály. Különlegességük, hogy bájitallal képesek felgyógyítani magukat, ha nem mágikus halálos sebzést kapnak (25% esély az újjáéledésre).<br><br>
+        
+      </p>
+    </div>
+    <div class="stat-calc">
+          <h2>Stat pont Calculator</h2>
+          <form class="input-form">
+              <input type="text" class="input-primary-stat" placeholder="Alapstat...">
+              <select>
+                  <option value="harcos">HARCOS</option>
+                  <option value="magus">MÁGUS</option>
+                  <option value="felderito">FELDERÍTŐK</option>
+                  <option value="orvgyilkos">ORVGYILKOS</option>
+                  <option value="harcimagus">HARCI MÁGUS</option>
+                  <option value="haborgo">HÁBORGÓK</option>
+                  <option value="demonvadasz">DÉMONVADÁSZ</option>
+              </select>
+              <input type="submit" class="submitBtn" value="Calculate">
+              <div class="stat-result"></div>
+          </form>
+    </div>
+
+  </div>
+</body>
+<script src="app/stat.js"></script>
+</html>

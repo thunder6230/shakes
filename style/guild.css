@@ -1,0 +1,13 @@
+p{
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 10em;
+    max-width: 50em;
+  }
+@media  screen and (max-width:425px){
+      p{
+          width: 20rem;
+      }
+}

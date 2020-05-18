@@ -1,0 +1,81 @@
+.container-1{
+    display:flex;
+    justify-content: center;
+
+}
+.div-p{
+    width: 75%;
+}
+p{
+    margin:0;
+    padding-top:5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.stat-calc{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 25%;
+    
+
+}
+
+.input-primary-stat, .submitBtn, select{
+    border-style: none;
+    height: 2em;
+    margin-left: 1em;
+    width: 10em;
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+.stat-calc p{
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+@media  screen and (max-width:1440px){
+    .input-primary-stat, .submitBtn, select{ 
+        width: 15em;
+        margin-top: 2em;
+    }
+    .stat-calc p{
+        padding: 1em;
+        font-size: 1.2em;
+    }
+}
+@media  screen and (max-width:425px){
+    .container-1{
+        display: block;
+        text-align: center;
+        padding-bottom: 2rem;
+        
+    }
+    .div-p{
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        width: 20rem;
+        margin: 0 auto;
+    }
+    .input-primary-stat, .submitBtn, select{ 
+        width: 20em;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+    
+    .stat-calc p{
+        padding-top: 1em;
+        font-size: 1.2em;
+    }
+    .stat-calc{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+}
