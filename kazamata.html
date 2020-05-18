@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakes & Fidget tippek</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style-header.css">
     <link rel="stylesheet" href="style/kazamata.css">
 </head>
 <body>
   <header>
     <h1>Shakes & Fidget</h1><br>    
-    <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="kasztok.html">Kasztok</a></li>
-      <li><a href="tudnivalok.html">Tudnivalok</a></li>
-      <li><a href="erod.html">Erod</a></li>
-      <li class="active"><a href="kazamata.html">Kazamata</a></li>
-      <li><a href="guild.html">Guild</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="kasztok.html">Kasztok</a>
+      <a href="tudnivalok.html">Tudnivalok</a>
+      <a href="erod.html">Erod</a>
+      <a href="kazamata.html" class="active">Kazamata</a>
+      <a href="guild.html">Guild</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
   </header>
   <div class="container-1">
     <div>
@@ -36,4 +40,5 @@
     </div>  
   </div>
 </body>
+<script src="app/menu.js"></script>
 </html>
